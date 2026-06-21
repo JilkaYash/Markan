@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details — MARKAN Welding Solutions</title>
+  <meta name="description" content="View detailed specifications, applications, and benefits of MARKAN welding products. Request pricing via WhatsApp or Email.">
+  <meta property="og:title" content="Product Details — MARKAN">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="assets/images/mk-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <img src="assets/images/mk-logo.png" alt="MARKAN" class="loader-logo">
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <div id="nav-slot"></div>
+
+  <section class="page-header">
+    <div class="page-header-bg"></div>
+    <div class="container">
+      <div class="page-header-content">
+        <h1 class="page-header-title">Product Details</h1>
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html" class="breadcrumb-link">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <a href="products.html" class="breadcrumb-link">Products</a>
+          <span class="breadcrumb-sep">/</span>
+          <span class="breadcrumb-current" id="breadcrumbProductName">Product</span>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad">
+    <div class="container" id="productDetailContent">
+      <!-- Product detail rendered by JS -->
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+  <div id="util-slot"></div>
+
+  <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
